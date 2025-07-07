@@ -1,5 +1,6 @@
-$rgName = "<RG NAME>"
-$region = "<Region of Arc objects>"
+# Requires -Version 7.0 or later
+$rgName = "ocs-arc"
+$region = "westus2"
 $amaName = "AzureMonitorWindowsAgent"
 $publisher = "Microsoft.Azure.Monitor"
 $settings = @{}
